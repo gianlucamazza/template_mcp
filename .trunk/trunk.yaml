@@ -30,7 +30,7 @@ lint:
   ignore:
     - linters: ["bandit"]
       paths:
-        - "tests/**"  # Ignore bandit issues in tests, including B101 (assert statements)
+        - "tests/**" # Ignore bandit issues in tests, including B101 (assert statements)
 actions:
   disabled:
     - trunk-announce
