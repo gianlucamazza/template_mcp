@@ -4,11 +4,9 @@ import logging
 from typing import Any, Dict, List
 
 from ..config import ServerConfig
+from .example_resource import example_resource_reader
 
 logger = logging.getLogger(__name__)
-
-# Import resource implementations
-from .example_resource import example_resource_reader
 
 
 def get_resources(config: ServerConfig) -> List[Dict[str, Any]]:
